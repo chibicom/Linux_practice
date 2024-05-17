@@ -1,0 +1,156 @@
+    1  ls /
+    2  ls /usr
+    3  pwd
+    4  cd ~
+    5  cd -
+    6  cd 
+    7  cd /
+    8  cd /root
+    9  pwd
+   10  cd usr
+   11  cd /usr
+   12  pwd
+   13  cd /home
+   14  pwd
+   15  cd ~
+   16  pwd
+   17  pd /
+   18  cd /
+   19  pwd
+   20  cd /home
+   21  pwd
+   22  mkdir test1
+   23  ls
+   24  pwd
+   25  mkdir test2/test3
+   26  mkdir -p test2/test3
+   27  ls test2
+   28  cd /home
+   29  touch test1/index.php
+   30  le test1
+   31  ls test1
+   32  cd /home/test1 && ls
+   33  cd /home/test1 && cp index.php copy.php
+   34  ls
+   35  cd /home
+   36  cp -r test1 test4
+   37  ls
+   38  ls test4
+   39  cd/ home
+   40  cd /home
+   41  ls
+   42  ls test2
+   43  mv test2/test3 test3
+   44  ls
+   45  mv test4 test1_copy
+   46  ls
+   47  ls test1
+   48  cd /home
+   49  ls test1
+   50  rm test1/copy.php
+   51  ls test1
+   52  ls test3
+   53  ls
+   54  ls
+   55  cd /home
+   56  rm -r test3
+   57  ls
+   58  ls test1_copy
+   59  rm test_copy/*.php
+   60  rm test1_copy/*.php
+   61  ls test1_copy
+   62  rm test1_copy/*.php
+   63  ls test1_copy
+   64  ls test1
+   65  ls test2
+   66  ls
+   67  echo '# Hello World' > README.md
+   68  cat README.md
+   69  echo '# Server Lesson' > README.md
+   70  cat README.md
+   71  echo 'Linux Practice' >> README.md
+   72  echo '-----------------' >> README.md
+   73  cat README.md
+   74  vi README.md
+   75  vi README.md
+   76  vi README.md
+   77  cd /root
+   78  mkdir server_lesson && cd server_lesson
+   79  yum update -y && yum -y install git
+   80  git version
+   81  git init
+   82  touch first.txt
+   83  git status
+   84  git branch
+   85  ls
+   86  mkdir -p linux_practice1/public
+   87  ls
+   88  touch linux*/public/index.php
+   89  touch linux_practice1/public/index.php
+   90  ls public
+   91  ls linux_practice1/public
+   92  ls /
+   93  git status
+   94  pwd
+   95  ls
+   96  cd linux_practice1/public
+   97  ls
+   98  cp index.php index_bk.php
+   99  ls
+  100  cd ..
+  101  ls
+  102  cp -r public tmp
+  103  ls
+  104  rm tmp/index*
+  105  ls
+  106  ls tmp
+  107  ls public
+  108  cd ..
+  109  mkdir README.md
+  110  rm -r README.md
+  111  ls
+  112  touch README.md
+  113  ls
+  114  vi README.md
+  115  git status
+  116  git add .
+  117  git status
+  118  git commit -m 'add:practice_1'
+  119  git config --global user.email "papipupepopopo68@gmail.com"
+  120  git config --global user.name "chibicom"
+  121  git commit -m 'add:practice_1'
+  122  git status
+  123  git log
+  124  git branch
+  125  git remote add origin https://github.com/chibicom/Linux_practice.git
+  126  git remote -v
+  127  git push origin master
+  128  git push origin master
+  129  git branch
+  130  git checkout -b 'forPractice_1'
+  131  git branch
+  132  git push origin forPractice_1
+  133  git branch
+  134  git checkout -b 'forPractice_2'
+  135  git branch
+  136  ls
+  137  mkdir -p linux_practice2/documents && cd linux_practice2/documents && for i in $(seq -f "%02g" 1 50); do touch "gizumo${i}.md"; done
+  138  ls
+  139  pwd
+  140  cd ..
+  141  pwd
+  142  mkdir trash
+  143  for i in $(seq 20 40); do mv "documents/gizumo${i}" "trash/gizumo${i}"; done
+  144  for i in $(seq 20 40); do mv "documents/gizumo${i}.md" "trash/gizumo${i}.md"; done
+  145  ls
+  146  ls documents
+  147  ls trash
+  148  pwd
+  149  touch .gitignore
+  150  ls
+  151  ls -a
+  152  cd .gitignore
+  153  for i in $(seq 20 29); do echo "gizumo${i}.md" >> .gitignore; done
+  154  cat .gitignore
+  155  history 300
+  156  history 300 > exec_command.log
