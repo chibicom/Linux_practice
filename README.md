@@ -1,0 +1,14 @@
+practice_1
+- ls (list segments)
+- pwd (Print Working Directory)
+- cd (Change Directory)
+- mkdir (Make DIRectory)
+- touch
+- &&
+- cp (CoPy)
+- mv (MoVe)
+- rm (ReMove)
+- *, ?
+- >, >>
+- cat (CATnate)
+- vi
